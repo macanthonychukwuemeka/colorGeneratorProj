@@ -16,6 +16,7 @@ const Form = ({ addColor }) => {
           type='color'
           //the value attribute will be updated once i select an input value from the form
           value={color}
+          //    By using "e.target.value", the code retrieves the new value entered in the input or selected element
           onChange={(e) => setColor(e.target.value)}
         />
         <input
