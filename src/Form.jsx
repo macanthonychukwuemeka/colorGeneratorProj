@@ -7,6 +7,7 @@ const Form = ({ addColor }) => {
     e.preventDefault()
     addColor(color)
   }
+
   return (
     <section className='container'>
       <h4>color generator</h4>
